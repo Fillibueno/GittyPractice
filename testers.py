@@ -1,5 +1,5 @@
 import random
 
 rando = random.random()
-rando += random.randrange(1,7)
+rando *= 256
 print(int(rando))
