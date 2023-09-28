@@ -21,3 +21,7 @@ characters = ["Bright", "Astray", "Harvey", "Lenheim", "Auslese", "Crosner", "Ru
 intro = "these are the last names of the characters: "
 print(intro + ", ".join(characters))
 
+list2 = ["steel", 3, "Azure"]
+print(list2)
+
+print(characters.count("e"))
