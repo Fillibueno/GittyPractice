@@ -25,4 +25,3 @@ list2 = ["steel", 3, "Azure"]
 print(list2)
 
 print(characters.count("e"))
-print(commaSeparator)
