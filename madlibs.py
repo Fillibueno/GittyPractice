@@ -6,8 +6,8 @@ But I took your matches before fire could catch me
 So don't look now 
 I'm shining like fireworks over your sad empty town'''
 newPassage = ""
-start = passage[0]
-end = passage[21]
+passagestart = passage[0]
+passageend = passage[21]
 newPassage += passage[start:end]
 newPassage += input("enter a word here: ")
 start = passage[26]
