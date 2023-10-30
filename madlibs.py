@@ -6,8 +6,8 @@ But I took your matches before fire could catch me
 So don't look now 
 I'm shining like fireworks over your sad empty town'''
 newPassage = ""
-passagestart = passage[0]
-passageend = passage[21]
+start = passage[0]
+end = passage[21]
 newPassage += passage[start:end]
 newPassage += input("enter a word here: ")
 start = passage[26]
@@ -91,8 +91,8 @@ end = passage[300]
 newPassage += passage[start:end]
 print(newPassage)
 
-#def madlibsJoiner(passage,prompt,start, end):
-    #return(passage[start:end]+input(prompt))
+def madlibsJoiner(passage,prompt,start, end):
+    return(passage[start:end]+input(prompt))
 
-#nputPrompt = "Please enter"
- #+= madlibsJoiner(passage, inputPrompt, )
+nputPrompt = "Please enter"
+ += madlibsJoiner(passage, inputPrompt, ):
